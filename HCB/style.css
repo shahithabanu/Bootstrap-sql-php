@@ -1,0 +1,355 @@
+body{
+    font-family: 'Inter'!important;
+    font-family: 'Unbounded' !important;
+}
+/* Custom CSS for navigation */
+.navbar-custom {
+    background-color: #a6b1d8;
+    color: #000 !important;
+    padding-bottom: 20px !important;
+}
+
+.navbar-brand-custom {
+    font-weight: bold;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px !important;
+   
+}
+
+
+.navbar-nav-custom {
+    margin: auto;
+}
+
+.nav-item-custom {
+    margin-right: 40px;
+    color: black !important;
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-toggler-icon,
+    .navbar-custom .nav-link {
+      color: black !important; 
+    }
+@media (max-width:768px) {
+    #navbarNav{
+        text-align: center;
+    }
+}
+
+/* get started btn */
+
+.get-started-btn{
+    margin-right: 50px;
+    color: black;
+    background-color: white !important;
+    border: 2px solid black;
+    padding: 10px 15px !important;
+    box-shadow: 5px 5px black;
+    outline: 2px solid black;
+    border-radius: 0px !important;
+}
+
+.get-started-btn:focus  {
+    border: 2px solid black;
+    box-shadow: 5px 5px black !important; 
+}
+ /* get resume btn */
+
+.get-resume-btn{
+    padding: 15px 50px !important;
+    border: 1px solid black !important;  
+    margin-bottom: 140px;
+    box-shadow: 5px 5px black;
+    outline: 2px solid black;
+    border-radius: 0px !important;
+    background-color: white !important;
+
+}
+.get-resume-btn:focus , .follow:focus{
+    border: 2px solid black !important;
+    box-shadow: 5px 5px black !important; 
+}
+.purple-container {
+    background-color: #a6b1d8;
+    padding: 40px;
+    text-align: center;
+}
+
+/* first section */
+
+.hello-text {
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+}
+.sub-content{
+    font-size:22px;
+}
+
+/* main section */
+.divider {
+    /* width: 100%; */
+    height: 3px; 
+    background: linear-gradient(to right, #a6b1d8 0%, #a6b1d8 50px, black 30px, black calc(100% - 30px), #a6b1d8 calc(100% - 30px), #a6b1d8 100%);
+}
+
+/*  about section*/
+@media (max-width: 768px) {
+    .follow{
+        margin-left: 90px;
+        padding-top: 10px;
+    }
+    h3,h2,p{
+        /* margin-left: 80px; */
+        text-align: center;
+        padding-top: 10px;
+    }
+    h1{
+        text-align: center;
+        padding-top: 10px;
+    }
+    p{
+        padding-top: 10px;
+    }
+   
+}
+.follow{
+    margin-right: 50px;
+    color: black;
+    background-color: #a6b1d8!important;
+    border: 2px solid black;
+    padding: 15px 20px !important;
+    box-shadow: 5px 5px black;    
+    outline: 2px solid black;
+    border-radius: 0px !important;
+
+}
+.progress-bar-custom {
+    background-color: #a6b1d8; 
+}
+
+.custom-color{
+    background-color:#a6b1d8 ;
+    padding: 4px;
+}
+.pictures{
+    font-size: 60px !important;
+    color: #a6b1d8;
+}
+
+/*incredeble service section  */
+
+.custom-border{
+    color: black;
+    background-color: white !important;
+    border: 2px solid black;
+    padding: 15px 20px !important;
+    box-shadow: 5px 5px rgba(0,0,0);
+    border-radius: 0px !important;
+    outline: 2px solid black;
+    outline-offset: -2px;
+}
+@media (max-width:768px){
+    .custom-border{
+        padding-right: 100px;
+        margin: 10px;
+    }
+    .pictures{
+        padding-left: 80px;
+    }
+}
+
+.font{
+    font-size: 30px;
+}
+
+
+.numfont{
+    font-size: 50px;
+}
+
+.numfont {
+    display:block;
+    text-align: center;
+}
+
+.content {
+    display:block;
+    text-align: center;
+}
+.center-content{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 768px) {
+     .numfont,
+    .content {
+        display: block;
+        text-align: center;
+    }
+    .center-content{
+        display: inline-block;
+    }
+    
+}
+
+.top-border {
+    border-top: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none; 
+    padding: 10px;
+}
+
+/*  work together section   */
+
+.purple-container {
+    background-color:#a6b1d8;
+    color: #000;
+    padding: 20px;
+    
+}
+
+.custom-para {
+    margin-left: 300px;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .purple-container {
+        padding: 10px;
+    }
+
+    .custom-para {
+        width: 100%;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .contact-mail{
+        font-size: 20px !important;
+       } 
+}
+
+/* gallery section  */
+
+.custom-img{
+    padding-left: 200px;
+    
+}
+.caption{
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    
+    .custom-img{
+        width: 100% !important;
+        margin: 0 !important;
+        display: block;
+        justify-content: space-between;
+        padding-left: 0px !important;
+    }
+}
+.yellow{
+    background-color: #FCF55F;
+}
+
+/* mail section */
+
+@media (max-width: 768px) {
+    .contact-mail{
+        font-size: 25px !important;
+       } 
+}
+.line {
+    border-top: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none; 
+    padding: 10px;
+}
+.imgs{
+    padding-left:200px;
+}
+@media (max-width:768px) {
+
+    .imgs{
+        padding-right:110px;
+    }
+}
+.symbal{
+    color: #a6b1d8;
+}
+.qns{
+    font-weight: 500;
+}
+
+.custom-progress{
+    
+    border: 2px solid black;
+    box-shadow: 3px 3px rgba(0,0,0);
+    border-radius: 0px !important;
+    
+}
+.progress-bar{
+    background-color: #a6b1d8!important;
+
+}
+
+.faq-head{
+    font-size: 38px !important;
+}
+
+/* yellow section */
+
+.quote {
+    font-size: 24px;
+    color: #333; 
+  }
+  
+  .circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#a6b1d8; 
+    text-align: center;
+    line-height: 50px;
+  }
+  .author{
+    font-size: 20px !important;
+  }
+
+
+  .carousel-content {
+    text-align: center;
+  }
+  .custom-control-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  footer{
+    p{
+        font-size: 14px;;
+    }
+  }
+  .accordion-item .collapse.show {
+    display: flex;
+}
+.accordion-item .collapse {
+    display: none;
+}
+.accordion-item .card-body {
+    flex-grow: 1;
+}
